@@ -11,9 +11,15 @@ body {
 }
 
 .error {
-  border: 2px solid #ec1212;
+  border: 2px solid #ec1212 !important;
 }
-
+.errors {
+  text-align: center;
+  margin-top: 3em;
+  color: #ec1212;
+  text-transform: uppercase;
+  line-height: 28px;
+}
 .fieldset {
   border: none;
   display: flex;
